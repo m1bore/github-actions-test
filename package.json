@@ -6,7 +6,8 @@
   "scripts": {
     "test": "mocha",
     "lint": "eslint .",
-    "ci": "npm install"
+    "ci": "npm install",
+    "build": "npm run dev"
   },
   "keywords": [],
   "author": "",
