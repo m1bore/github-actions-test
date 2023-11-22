@@ -19,7 +19,7 @@ jobs:
           node-version: '14'
 
       - name: Install Dependencies
-      run: npm install --no-cache
+        run: npm install --no-cache
 
       - name: Lint Code
         run: npm run lint
